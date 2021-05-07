@@ -1,0 +1,123 @@
+body{ 
+  background: linear-gradient(60deg, whitesmoke,#dadada, #a3a3a3, #dadada, whitesmoke);  
+}
+header{ 
+  font-family: Raleway medium;
+  color: #F52F7F;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-shadow: 1 2 5px rgb(49, 49, 49);
+  
+}
+
+.list, p{ font-family: poppins;
+  color: #044746;
+  font-size: 18px;
+  text-align: justify;
+  
+}
+
+#code{ 
+  font-family: century gothic;
+  font-size: 15px;
+  background-color: #cef0fa;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+nav{
+  height: 95%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  background: url('topographic-bkg.jpg');
+  overflow-x: hidden;
+  padding-top: 50px;
+  transition: 0.8s;
+}
+nav li{ 
+  display: block;
+  font-family: Raleway medium;
+  font-size: 23px;
+  width: 90%;
+  padding: 10px 3px; 
+  border-bottom: 1px solid #cef0fa; 
+}
+a{
+  text-decoration: none;
+  color: #044746;
+}
+
+nav header{ 
+  text-align: center;  
+}
+.closebtn{
+  position: absolute;
+  top: -20px;
+  right: 15px;
+  font-size: 40px;
+  margin-left: 50px;
+  color: #80123e;
+}
+.closebtn:hover, .closebtn:focus{
+  cursor: pointer;
+}
+
+.main-section{ 
+  padding: 5px;
+                 
+}
+#main-doc{
+  text-align: left;
+  padding: 20px;
+  transition: margin-left .9s;
+}
+#x-nav{
+  display: none;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  color: #F52F7F;
+  cursor: pointer;
+  font-size: 60px;
+  height: 50px;
+  box-shadow: 0 0 8px #8da4acb0;
+  opacity: 0.75;
+}
+#x-nav:hover, #x-nav:focus{
+  opacity: 1;
+  box-shadow: 0 0 10px #8da4acd8;
+}
+
+#raw{
+  position: fixed;
+  right: 0;
+  bottom: 45%;
+}
+
+#raw p{
+  color: whitesmoke;
+  background: linear-gradient(60deg, #bddbe4,#b4d1da,#cef0fa);
+  padding: 3px;
+  box-shadow: 0px 2px 5px #b1c8cf;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.menu-bar{
+  height: 3.5px;
+  width: 30px;
+  background-color: #F52F7F;
+  margin: 5px 3px;
+}
+#bar{
+  position: fixed;
+}
+#bar:hover, #bar:focus{
+  cursor: pointer;
+}
